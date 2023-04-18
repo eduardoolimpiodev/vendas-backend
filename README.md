@@ -75,3 +75,12 @@ Nest is [MIT licensed](LICENSE).
 commands:
 nest g module user
 nest g controller user
+
+settings.json:
+{
+    "editor.codeActionsOnSave":
+    {
+      "source.fixAll.eslint": true
+    },
+      "eslint.validate": ["javascript"]  
+}
